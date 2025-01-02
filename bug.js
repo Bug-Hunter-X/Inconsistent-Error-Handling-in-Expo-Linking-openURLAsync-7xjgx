@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Linking` API to open a URL in a different app, and the app is not installed on the user's device.  The `Linking.openURLAsync` function will reject with an error, but the specific error message can be inconsistent across platforms and Expo versions.
